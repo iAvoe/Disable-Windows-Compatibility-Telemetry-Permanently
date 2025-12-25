@@ -6,7 +6,7 @@ If your Windows Compatibility Telemetry runs after every program install and uni
 
 ## Dead ends
 
-Before confirming you're really out of options, here are the common solutions to try first (you've probably haven't tried all of them):
+Please confirm that you're really ran out of options, here are the common solutions to try first (you should try all of them, except the last one):
 
 1. **Disable from Task Scheduler**
     - Task Scheduler → `Task Scheduler Library\Microsoft\Windows\Application Experience`
@@ -84,7 +84,7 @@ exit
     5. Set `Action` to `Start a program`
     6. In `Start a program`, bind the program to the batch script
         - Don't move this batch script to somewhere else after making this configuration
-    7. Create finish
+    7. Click finish
     8. Find and open this Task
     9. Check the “Run with highest privileges” box, then Save
         - You may check with `Conditions` and `Settings` tab to configure overtime, duplicated task and execution assurance options by your need
